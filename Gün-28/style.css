@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFCEE3;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.baslik-span{
+    font-size: 23px;
+}
+
+.firs-btn{
+    width: 86px;
+    height: 32px;
+    border: transparent;
+    border-radius: 5px;
+    background: #8FBAAB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 12px;
+    top: 15px;
+}
+
+.firs-btn:hover{
+    background: #74a495;
+    cursor: pointer;
+}
+
+.card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 32px;
+    background: rgb(255, 255, 255);
+    width: 422px;
+    height: 579px;
+    border-radius: 20px;
+    position: relative;
+    left: 528px;
+    bottom: 9px;
+    padding: 26px 78px;
+}
+
+.sakla{
+    display: none;
+}
+
+.svg{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 363px;
+    bottom: 533px;
+    color: #CFD4E2;
+
+}
+
+.svg:hover {
+    cursor: pointer;
+    color: #a3abb7;
+}
+
+.bolum-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 21px;
+}
+
+.bolum1-span{
+    font-size: 14px;
+}
+
+.secenek{
+    display: flex;
+    flex-direction: row;
+    column-gap: 18px;
+}
+
+.bolum-2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    row-gap: 40px;
+}
+
+.kutular{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 5px;
+}
+
+.text-kutusu{
+    width: 262px;
+    height: 33px;
+    border: solid 1px #CFD4E2;
+    border-radius: 5px;
+    padding-left: 12px;
+}
+
+.aciklama-kutusu{
+    width: 262px;
+    height: 88px;
+    border: solid 1px #CFD4E2;
+    border-radius: 5px;
+    padding-bottom: 44px;
+    padding-left: 9px;
+
+}
+
+.butonlar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
+.btn-1{
+    width: 118px;
+    height: 40px;
+    background: transparent;
+    border: transparent;
+    color: #555B6D;
+    border-radius: 5px;
+}
+
+.btn-2{
+    width: 118px;
+    height: 40px;
+    background: #0F1730;
+    border: transparent;
+    color: #FFFFFF;
+    border-radius: 5px;
+
+}
+
+.btn-1:hover{
+    cursor: pointer;
+    background: #eeeeee;
+}
+
+.btn-2:hover{
+    cursor: pointer;
+    background: #162041;
+}
+
+.minik-yazilar{
+    font-weight: bold;
+    font-size: 13px;
+}

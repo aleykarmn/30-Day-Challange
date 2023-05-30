@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    display:inline-block;
+    text-decoration: none;
+}
+
+
+.profile{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.profilee{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+
+}
+
+.baslik{
+    position: relative;
+    left: 59px;
+    top: 39px;
+    color: #291F68;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    width: 227px;
+    height: 103px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 26px;
+}
+
+svg{
+    width: 25px;
+}
+
+.btn-1,.btn-2{
+    padding: 11px;
+    font-size: 15px;
+    border: 1px solid ;
+    border-radius:10px ;
+    cursor: pointer;
+}
+
+.btn-1{
+    background: #291F68;
+    color: white;
+    width: 275px;
+    height: 51px;
+}
+
+.btn-1:hover {
+    background: #362c77;
+}
+
+.btn-2:hover{
+    background: #e5e5e5;
+}
+
+.btn-2{
+    background: transparent;
+    color: #291F68;
+    border: 1px solid #291F68;
+    width: 275px;
+    height: 51px;
+}
+
+.bolum-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 9px;
+}
+
+.bolum-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 7px;
+    padding-left: 54px;
+    color: #291F68;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.foto{
+    width: 102px;
+    height: 102px;
+    border-radius: 70px;
+}
+
+.buton1,.buton2{
+
+}
+
+.buton1 svg{
+    position: absolute;
+    left: 75px;
+    padding-top: 11px;
+    color: white;
+
+}
+
+.buton2 svg{
+    position: absolute;
+    left: 75px;
+    padding-top: 11px;
+    color: black;
+}
+
+.mesaj-bolum{
+    display: none;
+
+}
+
+.gonder-btn:hover{
+    background: #c7c6c6;
+    cursor: pointer;
+}
+
+.gonder-btn{
+    width: 57px;
+    height: 34px;
+    position: relative;
+    top: 38px;
+    right: 61px;
+    border: none;
+    border-radius: 5px;
+    background: #9fa1a1;
+}
+
+.mesaj-kutusu-sakla{
+    width: 418px;
+    height: 150px;
+    align-items: center;
+    border: solid 1px gray;
+    border-radius: 12px;
+    outline: none;
+}

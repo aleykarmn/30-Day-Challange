@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    display:inline-block;
+    text-decoration: none;
+    color: #75086e;
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#link:hover{
+    color: #c041b7;
+    cursor: pointer;
+}
+
+
+.uyari,.uyari-1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: column;
+    padding-right: 75px;
+}
+
+.uyari-1{
+    color: #38196B;
+}
+
+.baslik-1{
+    color: #38196B;
+    position: absolute;
+    padding-bottom: 100px;
+
+}
+
+#bildirim{
+    width: 30px;
+    position: absolute;
+    margin-top: 22px;
+    background: #da68d3;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin-right: 211px;
+    margin-bottom: 31px;
+}
+
+
+#link{
+    width: 94px;
+    height: 12px;
+    font-size: 20px;
+    margin-right: 54px;
+    margin-bottom: 20px;
+    z-index: 99999;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 16px;
+    position: relative;
+    bottom: 230px;
+    left: 211px;
+}
+
+.block-btn,.allow-btn{
+    width: 97px;
+    height: 51px;
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.block-btn{
+    border: 1px solid #FFB3B3 ;
+    background: transparent;
+    border-radius: 8px;
+    color: red ;
+}
+
+.block-btn:hover{
+    background: #ef8080;
+    cursor: pointer;
+}
+
+.allow-btn{
+    border: 1px solid #9EEBAF;
+    border-radius: 8px;
+    background: transparent;
+    color: #30e530;
+
+}
+
+.allow-btn:hover{
+    background: #9fef9f;
+    cursor: pointer;
+}
+
+.allow-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 11px;
+    position: relative;
+    top: 292px;
+    background: #e4e4e4;
+    width: 150px;
+    height: 52px;
+    border-radius: 7px;
+    left: 596px;
+}
+
+.allow-div-see{
+    display: none;
+}
+
+.ikon{
+    width: 27px;
+    height: 27px;
+    color: #2bcc2b;
+    position: relative;
+    bottom: 13px;
+    left: 107px;
+}
+
+.span-1{
+    font-size: 19px;
+    position: relative;
+    top: 13px;
+    left: 28px;
+}
+
+.block-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 11px;
+    position: relative;
+    top: 292px;
+    background: #f12d2d;
+    width: 150px;
+    height: 52px;
+    border: solid 1px #ff0000;
+    border-radius: 7px;
+    left: 596px;
+    color: #f1e8e8;
+}
+
+.span-2{
+    font-size: 19px;
+    position: relative;
+    left: 33px;
+    top: 10px;
+}
+
+.block-div-see{
+    display: none;
+}
+
+
+
+
+
+

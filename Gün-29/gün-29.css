@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    column-gap: 220px;
+}
+
+
+.bolum-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 13px;
+}
+
+.img{
+    border-radius: 40px;
+}
+
+.yazilar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 11px;
+}
+
+.span-1{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.span-2{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.span-3{
+    text-align: inherit;
+    width: 264px;
+}
+
+.ikonlar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 10px;
+}
+
+.ikonlar svg{
+    width: 46px;
+    height: 43px;
+    padding: 5px;
+    border: solid 2px #DFDFDF;
+    border-radius: 10px;
+}
+
+.bolum-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    row-gap: 90px;
+}
+
+.sag-kisim{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.info-kisim{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
+}
+
+.info-kisim svg{
+    width: 30px;
+    height: 30px;
+}
+
+
+.ust-div{
+    width: 329px;
+    height: 10px;
+    background: #DFDFDF;
+    position: relative;
+    border-radius: 10px;
+}
+
+.alt-div{
+    position:absolute;
+    left:0;
+    top:0;
+    height:10px;
+    width:80%;
+    background: #F17A37;
+    border-radius: 10px;
+}
+
+.buton{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    row-gap: 11px;
+}
+
+.btn{
+    color: #FFFFFF;
+    background: #13143C;
+    width: 125px;
+    height: 44px;
+    border: transparent;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #25274f;
+}
+
+

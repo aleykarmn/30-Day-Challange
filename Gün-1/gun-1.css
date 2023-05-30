@@ -1,0 +1,85 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+ul, ol{
+    list-style: none;
+}
+a{
+    dipslay:inline-block;
+    text-decoration: none;
+}
+
+
+.sablon{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    flex-direction: column;
+    column-gap: 10px;
+
+}
+.yazilar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    column-gap: 15px;
+    max-width: 480px;
+    background-color:#626CD6;
+    padding: 10px;
+    border: solid 2px white;
+    border-radius: 12px;
+    color: white;
+}
+
+.liste{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 129px;
+    padding-bottom: 100px;
+    margin: 12px;
+}
+
+.listee{
+    padding:5px;
+}
+
+.btn{
+    width: 140px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    border:solid white 1px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.grey{
+    color: grey;
+    
+}
+
+.listee:hover{
+    background: #F1F2FF;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #d2cfcf;
+}
+
+.geri-gel{
+    display: none;
+}
+
+

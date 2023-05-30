@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p,h3{
+    margin:0;
+}
+body{
+    background-color: #f56c6c;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Accordion Css Başlangıç */
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-header-text{
+    text-align: center;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 100px;
+}
+.accordion-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+    max-width: 960px;
+    width: 100%;
+}
+.accordion-item{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+}
+.accordion-header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 23px 50px;
+}
+.accordion-description-container{
+    width: 100%;
+    padding: 40px 65px;
+    position: relative;
+    top: -5px;/*iki elementte de border radius olduğu için biraz yukarı çekiyorumki boşluk gözükmesin*/
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    display: none;
+}
+.accordion-aciklamasi{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+/* Accordion Css Bitiş */

@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    dipslay:inline-block;
+    text-decoration: none;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.yazilar{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.buton{
+
+}
+
+.btn{
+    background: #101245;
+    border: 1px solid #DBE3FF;
+    border-radius: 40px;
+    padding: 20px 19px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+
+
+.span-1{
+    width: 233px;
+    font-size: 23px;
+    background: linear-gradient(94.61deg, #E74F85 0.91%, #924FE7 97.07%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+
+}
+
+
+.span-2{
+    width: 303px;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.btn:hover{
+    background: #2c3064;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    display:inline-block;
+}
+
+
+.about{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-gizle{
+    display: none;
+}
+
+.ikons svg{
+    width: 32px;
+    height: 32px;
+}
+
+.ikons{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 24px;
+    font-family: 'Poppins', sans-serif;
+    border: solid transparent;
+    background: #222C85;
+    width: 338px;
+    height: 356px;
+    border-radius: 50px;
+    padding-left: 40px;
+}
+.yazilar-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.container-1,.container-2,.container-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 8px;
+    row-gap: 24px;
+}
+
+.p-1{
+    font-family: 'Merriweather', serif;
+}
+
+.p-2{
+    width: 230px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.close-ikon {
+    width: 32px;
+    height: 32px;
+    color: white;
+    z-index: 9999;
+    position: relative;
+    bottom: 138px;
+    left: 305px;
+    border-radius: 15px;
+    padding: 2px;
+}
+
+
+.close-ikon:hover{
+    cursor: pointer;
+    background-color: rgba(211, 199, 199, 0.2);
+
+}
+
+.buton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 280px;
+}
+
+.open-btn{
+    width: 97px;
+    height: 43px;
+    background: #394399;
+    border: none;
+    border-radius: 14px;
+}
+
+.open-btn:hover{
+    cursor: pointer;
+    background: #4852a2;
+}
+
+.display-flex{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.buton-gizle{
+
+}
+

@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    dipslay:inline-block;
+    text-decoration: none;
+}
+
+
+.start{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.kutular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 23px;
+}
+
+.kutu-1{
+    width: 306px;
+    height: 327px;
+    border: solid 1px #FF68A7;
+    border-radius: 15px;
+
+}
+
+.kutu-2{
+    width: 306px;
+    height: 327px;
+    border: solid 1px #68A4FF;
+    border-radius: 15px;
+
+}
+
+.svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 33px;
+}
+
+.svg svg {
+    width: 40px;
+    height: 40px;
+    background: #FF68A7;
+    border: solid 4px transparent;
+    border-radius: 29px;
+    color: white;
+}
+
+.yazilar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 21px;
+}
+
+.p-1{
+    font-size: 21px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.p-2{
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    width: 248px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 33px;
+
+}
+
+.real-btn{
+    padding: 8px 18px;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border: transparent;
+    background: #FFE8F1;
+    color: #E02E79;
+    font-family: 'Mulish', sans-serif;
+}
+
+.svg-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 33px;
+}
+
+.svg-2 svg {
+    width: 40px;
+    height: 40px;
+    background: #68A4FF;
+    border: solid 4px transparent;
+    border-radius: 29px;
+    color: white;
+}
+
+.yazilar-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 21px;
+
+}
+
+.p-3{
+    font-size: 21px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.p-4{
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    width: 248px;
+
+}
+
+.button-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 52px;
+
+}
+
+.real-btn-2{
+    padding: 8px 18px;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border: transparent;
+    background: #EDF4FF;
+    color: #4b82d5;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.real-btn:hover{
+    cursor: pointer;
+    background: #f1acc4;
+}
+
+.real-btn-2:hover{
+    cursor: pointer;
+    background: rgba(62, 124, 243, 0.42);
+}
+
+
+
+
+
+
+
+
+
+

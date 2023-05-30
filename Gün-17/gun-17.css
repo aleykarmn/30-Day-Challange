@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    dipslay:inline-block;
+    text-decoration: none;
+}
+
+.location svg{
+    width: 30px;
+    color: #756BFF;
+}
+
+.closest-stores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.baslik-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 28px;
+    background: #121129;
+    width: 392px;
+    height: 548px;
+    padding-left: 60px;
+    border: transparent;
+    border-radius: 18px;
+}
+
+.bolum-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+
+.post-code{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 28px;
+}
+
+
+.sayi{
+    border: 2px solid #2A2753;
+    width: 111px;
+    height: 45px;
+    padding: 9px 11px;
+    border-radius: 4px;
+}
+
+.location-span{
+    color: #756BFF;
+}
+
+
+.bolum-2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 22px;
+}
+
+
+.closed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 49px;
+}
+
+.closed-span{
+    font-size: 11px;
+    background: #FF5EAB;
+    width: 56px;
+    height: 20px;
+    padding: 3px 6px;
+    border-radius: 9px;
+    color: white;
+}
+
+.yazi-saat-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 14px;
+
+}
+
+.saatler-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 9px;
+}
+
+.saatler-1 svg{
+    width: 30px;
+}
+
+.bolum-3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.open-span{
+    font-size: 11px;
+    background: #00BD9B;
+    width: 45px;
+    height: 19px;
+    padding: 2px 7px;
+    border-radius: 8px;
+    color: white;
+}
+
+
+.saatler-2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 9px;
+}
+
+
+.saatler-2 svg{
+    width: 30px;
+}
+
+.yazi-saat-2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 22px;
+}
+
+.open{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 123px;
+}
+
+
+.btn-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.real-btn{
+    width: 264px;
+    height: 47px;
+    background: #756BFF;
+    border: transparent;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.h3,.post-code,.location,.bergen-span,.yazi-saat-1,.poıv-span,.yazi-saat-2,.real-btn-2{
+    color: #C4C0FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

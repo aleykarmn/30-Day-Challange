@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="buton">
+        <button class="firs-btn kayip-btn">Hizmet Ekle</button>
+    </div>
+
+
+    <div class="card sakla">
+
+        <div class="baslik">
+            <span class="baslik-span" style="font-weight: bold" >Yeni Hizmet Ekle</span>
+        </div>
+
+        <div class="svg">
+            <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </div>
+
+        <div class="bolum-1">
+            <div class="bolum1-soru">
+                <span class="bolum1-span" style="font-weight: bold">Hangi tür hizmet eklemek istiyorsunuz?</span>
+            </div>
+
+            <div class="secenek">
+                <input type="radio" name="cinsiyet" value="erkek"> Servis
+                <input type="radio" name="cinsiyet" value="kiz"> Araç-Gereç
+            </div>
+        </div>
+
+        <div class="bolum-2">
+            <div class="kutular">
+                <span class="minik-yazilar">İsim*</span>
+                <input placeholder="Örn. Arıza Bakım Onarımı" type="text" class="text-kutusu">
+            </div>
+
+            <div class="kutular">
+                <span class="minik-yazilar">Açıklama*</span>
+                <input type="text" placeholder="Lütfen hizmeti açıklayın..." class="aciklama-kutusu">
+            </div>
+
+            <div class="kutular">
+                <span class="minik-yazilar">Fiyat*</span>
+                <input placeholder="Miktarı Giriniz" type="text" class="text-kutusu">
+            </div>
+        </div>
+
+        <div class="butonlar">
+            <button class="btn-1 modal_button modal_button-yes">İptal</button>
+            <button class="btn-2 modal_button modal_button-no">Hizmet Ekle</button>
+        </div>
+
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>

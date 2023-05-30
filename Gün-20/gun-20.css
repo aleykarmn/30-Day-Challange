@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    dipslay:inline-block;
+    text-decoration: none;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.card{
+    background: #2D2C43;
+    width: 405px;
+    height: 287px;
+    padding: 53px;
+    border-radius: 34px;
+    color: white;
+    padding-left: 206px;
+}
+
+.bolum-1{
+    font-size: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 11px;
+}
+.yazilar{
+    font-size: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.span-1{
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+}
+.span-2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+}
+svg{
+    width: 30px;
+}
+.ikon-bolum{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 35px;
+    padding-top: 26px;
+    font-size: 13px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.ikon-1,.ikon-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.buton{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 28px;
+}
+.btn{
+    padding: 9px 37px;
+    border: transparent;
+    border-radius: 30px;
+    background: rgba(143, 90, 255, 0.69) ;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    z-index: 9999;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #8F5AFF;
+}
+.foto{
+    position: absolute;
+    padding-right: 189px;
+    padding-bottom: 108px;
+}
+img{
+    object-fit: cover;
+    max-width: 150px;
+    max-height: 150px;
+    border: solid 8px #1E1D2F;
+    border-radius: 105px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

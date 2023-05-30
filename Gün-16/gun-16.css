@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    dipslay:inline-block;
+    text-decoration: none;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 274px;
+    row-gap: 21px;
+}
+
+.bolum-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 16px;
+    padding-top: 64px;
+}
+
+.secenek{
+    width: 200px;
+    height: 45px;
+    padding-left: 17px;
+
+}
+
+.kutular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.kutu-1,.kutu-2,.kutu-3{
+    width: 324px;
+    height: 229px;
+    background: linear-gradient(120.38deg, #FAF2F4 1.41%, #F2F4FA 100%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 42px;
+
+}
+
+svg{
+    width: 37px;
+    height: 37px;
+    padding: 5px 4px;
+    background: white;
+    border-radius: 26px;
+}
+
+.paragraf{
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 40px;
+}
+
+.btn{
+    color: white;
+    padding: 11px 12px;
+    background: #0C1727;
+    border-radius: 3px;
+    margin-top: 18px;
+    border: transparent;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #2e313d;
+}

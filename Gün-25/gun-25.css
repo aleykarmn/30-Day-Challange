@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    dipslay:inline-block;
+    text-decoration: none;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: rgb(255, 255, 255); */
+    flex-direction: column;
+    background: #F24D5D;
+}
+
+.card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 46px;
+    background: #030235;
+    width: 663px;
+    height: 241px;
+    padding-top: 39px;
+    padding-left: 24px;
+    border-radius: 15px;
+}
+
+.kutular{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+#araikonu{
+    width: 23px;
+    position: relative;
+    left: 32px;
+    top: 4px;
+}
+
+.ikon-text{
+
+}
+
+.text-kutu{
+    width: 228px;
+    height: 40px;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+
+.kutu1{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.secenekler1,.secenekler2{
+    width: 162px;
+    height: 40px;
+    padding-left: 8px;
+    border-radius: 10px;
+}
+
+.kutu2,.kutu3{
+
+}
+
+.baslik{
+    padding-left: 23px;
+}
+
+.join-us{
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+}
+
+@media (max-width:800px) {
+
+    .kutular{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 25px;
+
+    }
+
+    .card{
+        width: 322px;
+        height: 430px;
+    }
+
+    .join-us{
+        padding-left: 67px;
+    }
+    
+}
+
+

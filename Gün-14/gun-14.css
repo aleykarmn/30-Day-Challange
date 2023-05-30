@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    dipslay:inline-block;
+    text-decoration: none;
+}
+
+
+.menu{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.home svg,.my-files svg,.clock svg,.star svg,.trash svg{
+    width: 30px;
+}
+
+.ana-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 19px;
+
+}
+
+.home,.my-files,.clock,.star,.trash {
+    width: 218px;
+    height: 44px;
+    padding: 31px 11px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 13px;
+}
+
+.home:hover{
+    background: #EDF1FF;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.my-files:hover{
+    background: #EDF1FF;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+.clock:hover{
+    background: #EDF1FF;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+.star:hover{
+    background: #EDF1FF;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+.trash:hover{
+    background: #EDF1FF;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+
+

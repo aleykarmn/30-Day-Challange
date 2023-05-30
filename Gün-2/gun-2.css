@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 30px;
+    background: #3D3F43;
+    width: 359px;
+    height: 430px;
+    padding-left: 58px;
+    padding-top: 25px;
+    border-radius: 15px;
+
+}
+.card{
+    position: relative;
+
+}
+.bolum-1{
+    position: relative;
+}
+
+.arama-kutusu{
+    width: 252px;
+    height: 45px;
+    padding: 2px 53px;
+    border: transparent;
+    background: #303236;
+    border-radius: 6px;
+    display: none;
+    color: white;
+}
+
+.ikon-div{
+    width: 28px;
+    height: 30px;
+    position: absolute;
+    left: 68px;
+    color: gray;
+    top: 32px;
+    z-index: 1;
+}
+
+#ikon:hover{
+    cursor: pointer;
+    color: #505157;
+
+}
+.bolum-toggle{
+    display: none;
+}
+.bolum-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 34px;
+    color: #FFFFFF;
+}
+.arama-kutusu:focus{
+    outline: none;
+}
+.baslik-span{
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.listeler{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.li:hover{
+    cursor: pointer;
+    color: #2CCDEA;
+}
+.display-flex{
+    display: flex !important;
+}
+
+
+
+
+
+
+
+

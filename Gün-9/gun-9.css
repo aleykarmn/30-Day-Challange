@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    dipslay:inline-block;
+    text-decoration: none;
+}
+
+input::-moz-placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+input:-ms-input-placeholder {
+    color: #ffffff;
+}
+input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+
+.card{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: column;
+
+}
+
+.card-1 {
+    background: #47518B;
+    border-radius: 16px;
+}
+
+
+.yazilar-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 18px;
+    width: 563px;
+    height: 247px;
+    background: #47518B;
+    border-radius: 16px;
+    padding-bottom: 45px;
+    padding-left: 34px;
+    color: white;
+}
+
+.p-1{
+    font-size: 12px;
+}
+
+.p-2{
+    width: 380px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.email{
+    width: 284px;
+    height: 49px;
+    background: #47518B;
+    border: 2px solid #747DB0;
+    border-radius: 4px;
+    padding: 20px;
+    outline: none;
+}
+
+.kutular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 11px;
+}
+
+.buton{
+    width: 116px;
+    height: 48px;
+    background: #9D50FF;
+    border: transparent;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.son-yazi{
+    font-size: 10px;
+    width: 434px;
+    height: 0px;
+}
+
+.buton:hover{
+    cursor: pointer;
+    background: #a46aea;
+}
+
+.sakla{
+    display: none;
+    z-index: 1;
+}
+
+.mail-error{
+    color: red;
+    position: relative;
+    right: 293px;
+    top: 35px;
+    font-size: 14px;
+    width: 238px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5px;
+    justify-content: center;
+    position: relative;
+    top: 236px;
+    background: #67a654;
+    width: 338px;
+    height: 138px;
+    margin-left: 530px;
+    border-radius: 5px;
+}
+
+.info-sakla{
+    display: none;
+}
+
+.info span{
+    position: relative;
+    left: 40px;
+    top: 29px;
+}
+
+.cancel-btn{
+    border: transparent;
+    width: 66px;
+    height: 31px;
+    background: #bfbebe;
+    position: relative;
+    top: 44px;
+    left: 133px;
+    border-radius: 5px;
+}
+
+.cancel-btn:hover{
+    cursor: pointer;
+    background: #cccccc;
+}

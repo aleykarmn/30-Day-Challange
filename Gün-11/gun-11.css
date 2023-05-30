@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    dipslay:inline-block;
+    text-decoration: none;
+}
+.card{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.container{
+    width: 347px;
+    height: 379px;
+    background: rgb(91,134,163);
+    background: linear-gradient(90deg, rgba(91,134,163,1) 17%, rgba(140,140,173,1) 62%);
+    border-radius: 24px;
+}
+
+.ikon{
+    width: 30px;
+    display: flex;
+    margin-left: 285px;
+    margin-top: 32px;
+    color:#dbdbdb;
+
+}
+
+.picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto{
+    border: 8px solid #dbdbdb;;
+    border-radius: 60px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 8px;
+    padding-top: 18px;
+    color:#dbdbdb;
+}
+.konum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 12px;
+    color:#dbdbdb;
+
+}
+
+.konum svg{
+    width: 23px;
+    height: 23px;
+
+}
+
+.buton{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    padding-top: 32px
+}
+
+.buton-1{
+    padding: 8px 16px;
+    border:transparent;
+    border-radius: 30px;
+    background: #dbdbdb;
+}
+.buton-1:hover{
+    background: rgba(219, 219, 219, 0.77);
+    cursor: pointer;
+}

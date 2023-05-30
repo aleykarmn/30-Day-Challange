@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gun-3.css">
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="form">
+
+    <div class="form-1" >
+        <h3>Send Us a Message</h3>
+
+        <form action="#" class="form-2" >
+            <input class="name isim-1" type="text" placeholder="Full Name" >
+
+            <input class="name email-uyari" type="email" placeholder="Your email">
+            <span style="color: red; font-weight: bold" class="mail-error sakla"></span>
+
+            <!--label koy diyorda gerek yok hee-->
+            <select class="name" name="post">
+                <option value="want">I want to post</option>
+                <option value="want">Lorem ipsum dolor sit amet</option>
+            </select>
+
+            <textarea class="name" cols="50" rows="4" placeholder="Your message goes here..."></textarea>
+
+            <button class="buton">Submit Form</button>
+
+        </form>
+    </div>
+</div>
+<script src="jquery.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

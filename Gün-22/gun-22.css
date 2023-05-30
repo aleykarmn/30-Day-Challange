@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+
+.ikon{
+    background: #FFF3EC;
+    width: 101px;
+    height: 101px;
+    border-radius: 51px;
+    margin-bottom: 35px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.ikon svg{
+    width: 64px;
+}
+
+.kapat svg{
+    width: 30px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 5px;
+    position: relative;
+}
+
+.yazi-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+
+.yazi{
+    width: 281px;
+    height: 107px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.butonlar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 19px;
+
+}
+
+.btn{
+    padding: 17px 33px;
+    background: transparent;
+    border: solid 1px #7088DE;
+    border-radius: 30px;
+    color: #254ACC;
+    font-weight: bold;
+    position: relative;
+    z-index: 99999999;
+}
+
+.a{
+    padding-top: 14px;
+    cursor: pointer;
+}
+
+.link{
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+#kurabiye{
+    margin: 19px 19px;
+    color: #D2723C;
+
+}
+
+.kapat{
+    position: absolute;
+    bottom: 426px;
+    left: 282px;
+}
+
+#close{
+    border: 1px solid #EFF2FD;
+    border-radius: 19px;
+    cursor: pointer;
+    padding: 3px;
+    position: absolute;
+    width: 24px;
+    bottom: -7px;
+}
+#close:hover{
+    background: #e1e1e7;
+}
+
+
+.btn:hover{
+    background: #EFF2FD;
+    cursor: pointer;
+
+}
+.btn:hover svg{
+    color:purple;
+}
+
+@media (max-width:440px){
+    .butonlar{
+        flex-direction: column;
+        row-gap: 20px;
+        width: 100%;
+    }
+    .btn{
+        width:100%;
+    }
+}
+
+
+
+
+
+
+
+
